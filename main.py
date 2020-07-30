@@ -95,12 +95,6 @@ if __name__== "__main__":
             chrome_path = 'C:/Program Files (x86)/Google/Chrome/Application/chrome.exe %s'
             webbrowser.get(chrome_path).open(url)
 
-        elif 'satish' in query:
-            url= "https://www.linkedin.com/in/indianservers/"
-
-            chrome_path = 'C:/Program Files (x86)/Google/Chrome/Application/chrome.exe %s'
-            webbrowser.get(chrome_path).open(url)
-
         elif 'whatsapp' in query:
             url= "https://web.whatsapp.com/"
 
