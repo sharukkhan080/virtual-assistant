@@ -88,15 +88,7 @@ if __name__== "__main__":
 
             chrome_path = 'C:/Program Files (x86)/Google/Chrome/Application/chrome.exe %s'
             webbrowser.get(chrome_path).open(url)
-
-        
-        elif ' arif sir profile' in query:
-            url= "https://www.linkedin.com/in/arifuddin-sohel-mohammed-37aaab20/"
-
-            chrome_path = 'C:/Program Files (x86)/Google/Chrome/Application/chrome.exe %s'
-            webbrowser.get(chrome_path).open(url)
             
-
         elif 'my college' in query:
             url= "http://mjcollege.ac.in/"
 
